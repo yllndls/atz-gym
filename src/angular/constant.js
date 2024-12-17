@@ -1,0 +1,16 @@
+const PROVIDERS_URL = {
+	registration: 'src/providers/Register.php',
+	avail_membership: 'src/providers/AvailMembership.php',
+	membership_transaction: '../src/providers/MembershipTranscation.php',
+	membership_history: '../src/providers/MembershipHistory.php',
+	expired_membership: '../src/providers/ExpiredMembership.php',
+	admin_order_details: '../src/providers/OrderDetails.php',
+	cart_list: 'src/providers/CartList.php',
+	cart_added: 'src/providers/CartAdded.php',
+	cart_updated: 'src/providers/CartUpdated.php',
+	cart_remove: 'src/providers/CartRemove.php',
+	checkout_product: 'src/providers/CheckOut.php',
+	checkout_transaction: 'src/providers/CheckOutTransaction.php',
+	order_details: 'src/providers/OrderDetails.php',
+	order_status_change: '../src/providers/OrderStatusChange.php',
+};
